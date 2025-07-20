@@ -1,6 +1,6 @@
 {
   "name": "atomic-saga",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive npm package for ensuring atomic API operations in distributed Node.js applications using Saga patterns, compensating transactions, and idempotent operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
