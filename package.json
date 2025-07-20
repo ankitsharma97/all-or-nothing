@@ -1,16 +1,16 @@
 {
-  "name": "atomic-api-operations",
+  "name": "all-or-nothing",
   "version": "1.0.0",
   "description": "A comprehensive npm package for ensuring atomic API operations in distributed Node.js applications using Saga patterns, compensating transactions, and idempotent operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix",
+    "build": "npx tsc",
+    "dev": "npx tsc --watch",
+    "test": "npx jest",
+    "test:watch": "npx jest --watch",
+    "lint": "npx eslint src/**/*.ts",
+    "lint:fix": "npx eslint src/**/*.ts --fix",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build && npm run test"
   },
@@ -26,16 +26,16 @@
     "nodejs",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Ankit Sharma",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/atomic-api-operations.git"
+    "url": "https://github.com/ankitsharma97/all-or-nothing.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/atomic-api-operations/issues"
+    "url": "https://github.com/ankitsharma97/all-or-nothing.git/issues"
   },
-  "homepage": "https://github.com/yourusername/atomic-api-operations#readme",
+  "homepage": "https://github.com/ankitsharma97/all-or-nothing#readme",
   "dependencies": {
     "joi": "^17.11.0",
     "uuid": "^9.0.0",
