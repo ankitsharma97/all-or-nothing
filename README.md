@@ -410,5 +410,8 @@ This package is heavily inspired by the patterns and principles from giants in t
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
 -----
-
-For questions or issues, please [create an issue on GitHub](https://www.google.com/search?q=https://github.com/ankitsharma97/atomic-saga/issues).
+For questions, issues, or contributions:
+  "description": "A comprehensive npm package for ensuring atomic API operations in distributed Node.js applications using Saga patterns, compensating transactions, and idempotent operations",
+- GitHub Issues: [Create an issue](https://github.com/ankitsharma97/atomic-saga/issues)
+- Documentation: [Read the docs](https://github.com/ankitsharma97/atomic-saga/wiki)
+- Examples: [View examples](https://github.com/ankitsharma97/atomic-sagag/examples) 
