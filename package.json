@@ -1,6 +1,6 @@
 {
-  "name": "all-or-nothing",
-  "version": "1.0.2",
+  "name": "atomic-saga",
+  "version": "1.0.0",
   "description": "A comprehensive npm package for ensuring atomic API operations in distributed Node.js applications using Saga patterns, compensating transactions, and idempotent operations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,12 +30,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ankitsharma97/all-or-nothing.git"
+    "url": "https://github.com/ankitsharma97/atomic-saga"
   },
   "bugs": {
-    "url": "https://github.com/ankitsharma97/all-or-nothing.git/issues"
+    "url": "https://github.com/ankitsharma97/atomic-saga/issues"
   },
-  "homepage": "https://github.com/ankitsharma97/all-or-nothing#readme",
+  "homepage": "https://github.com/ankitsharma97/atomic-saga#readme",
   "dependencies": {
     "joi": "^17.11.0",
     "uuid": "^9.0.0",

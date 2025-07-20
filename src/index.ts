@@ -6,7 +6,7 @@
  * 
  * @example
  * ```typescript
- * import { AtomicApiOperations, SagaOrchestrator, IdempotencyMiddleware } from 'atomic-api-operations';
+ * import { AtomicApiOperations, SagaOrchestrator, IdempotencyMiddleware } from 'atomic-saga';
  * 
  * // Configure the package
  * const atomicApi = new AtomicApiOperations({

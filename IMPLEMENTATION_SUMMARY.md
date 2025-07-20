@@ -45,7 +45,7 @@ Based on your comprehensive analysis document "Ensuring Atomic API Operations in
 ## 📁 Project Structure
 
 ```
-atomic-api-operations/
+atomic-saga/
 ├── src/
 │   ├── core/
 │   │   └── SagaOrchestrator.ts          # Main saga orchestration logic
@@ -189,7 +189,7 @@ The `test/basic.test.ts` file includes:
 
 ## 🎯 How It Addresses Your Requirements
 
-### 1. **"All-or-Nothing" Atomicity**
+### 1. **"atomic-saga" Atomicity**
 - ✅ Saga pattern ensures either all steps complete or all are compensated
 - ✅ Compensating transactions provide rollback capabilities
 - ✅ "Nothing happened" guarantee through proper compensation
